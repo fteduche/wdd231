@@ -1,0 +1,96 @@
+body{
+    padding: 0 10px 0 10px;
+    background-color: antiquewhite;
+}
+header{
+    background-color: #0d5e84;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.container img {
+  width: 100px; /* adjust the image width as needed */
+  height: 100px; /* adjust the image height as needed */
+  margin-right: 40px; /* add some space between the image and the title */
+  box-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+  border-radius: 6px; /* adjust the border radius as needed */
+}
+
+.container .title {
+  font-size: 30px; /* adjust the font size as needed */
+}
+
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: black;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    flex: 1;
+  }
+  
+  .nav a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+  }
+.nav a:hover {
+    color: rgb(201, 202, 102);
+    font-weight: 700;
+    text-decoration: underline;
+}
+.hamburger{
+    display: none;;
+  }
+
+
+
+
+/*foot area style*/
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    background-color: #0d5e84;
+}
+footer img{
+    width: 50px;
+    height: 20px;
+    border-radius: 0%;
+    
+}
+footer p {
+    text-align: center;
+    color: white;
+    margin:0;
+    position: relative;
+    top: 50%;
+    padding: 20px;
+}
