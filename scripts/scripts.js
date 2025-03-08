@@ -1,11 +1,14 @@
 document.addEventListener('DOMContentLoaded', () => {
     const hamburger = document.getElementById('hamburger');
-    const menu = document.getElementById('menu');
+    const closeBtn = document.getElementById('close-btn');
+    const nav = document.getElementById('nav');
+  
     hamburger.addEventListener('click', () => {
-      hamburger.classList.toggle('active');
-      menu.classList.toggle('active');
-      const nav = document.querySelector("nav ul");
-      nav.classList.toggle("show");
+      nav.classList.add('show');
+    });
+  
+    closeBtn.addEventListener('click', () => {
+      nav.classList.remove('show');
     });
   });
   
@@ -45,9 +48,10 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   
   // Get the current year and last modified date
-const currentDate = new Date();
-const year = currentDate.getFullYear();
-const lastModified = document.lastModified;
-
-// Update the footer with the current year and last modified date
-document.getElementById("last-modified").textContent = "Last Update: "+lastModified;
+  const currentDate = new Date();
+  const year = currentDate.getFullYear();
+  const lastModified = document.lastModified;
+  
+  // Update the footer with the current year and last modified date
+  document.getElementById("last-modified").textContent = "Last Update: " + lastModified;
+  
