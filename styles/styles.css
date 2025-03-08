@@ -65,9 +65,11 @@ header{
     font-weight: 700;
     text-decoration: underline;
 }
-.hamburger{
+.hamburger,
+.close-btn {
     display: none;
   }
+
 main{
     background-color: #f0f0f0;
     padding: 30px;
@@ -277,6 +279,10 @@ footer p {
         align-items: center;
       }
       
+      .close-btn {
+        display: block;
+      }
+    
       .nav.show {
         display: block;
       }
