@@ -53,8 +53,9 @@
 
   .item p{
     color: #000000;
-    size: 16px;
-  }
+    resize: vertical; /* or horizontal, or both */
+    width: 56px;
+    height: 16px;  }
 
   .item img{
     display: block;
