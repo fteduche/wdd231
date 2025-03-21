@@ -18,8 +18,9 @@
 
 .item p{
   color: #000000;
-  width: 56px;
-  height: 16px;  
+  width: 250px;
+    height: 16px;  
+    margin: auto; 
 }
 
 .item img{
@@ -55,8 +56,10 @@
   .item p{
     color: #000000;
     resize: vertical; /* or horizontal, or both */
-    width: 56px;
-    height: 16px;  }
+    width: 250px;
+    height: 16px;  
+    margin: auto;
+  }
 
   .item img{
     display: block;
