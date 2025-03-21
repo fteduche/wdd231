@@ -36,9 +36,8 @@
 }
 @media only screen and (max-width: 768px) {
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  
   }
   
   .grid-container.list-view {
@@ -56,20 +55,26 @@
   .item p{
     color: #000000;
     resize: vertical; /* or horizontal, or both */
-    width: 250px;
-    height: 16px;  
+    width: auto;
+    height: auto;  
     margin: auto;
   }
 
   .item img{
     display: block;
     margin: auto;
-    width: 250px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
   }
   
   .item.list-view {
     width: 100%;
     margin-bottom: 20px;
+  }
+}
+/* Adjust grid layout for extra small screens */
+@media only screen and (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
