@@ -18,7 +18,8 @@
 
 .item p{
   color: #000000;
-  size: 16px;
+  width: 56px;
+  height: 16px;  
 }
 
 .item img{
