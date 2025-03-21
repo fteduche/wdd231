@@ -1,12 +1,15 @@
-// Load JSON data
-fetch('data/directory.json')
-  .then(response => response.json())
-  .then(data => {
+// Function to load JSON data
+async function loadJSONData() {
+  try {
+    // Fetch JSON data using await
+    const response = await fetch('data/directory.json');
+    const data = await response.json();
+
     // Update HTML elements with JSON data
     const gridContainer = document.querySelector('.grid-container');
     gridContainer.innerHTML = '';
 
-    data.forEach(member => {
+    data.forEach((member) => {
       const item = document.createElement('div');
       item.classList.add('item');
 
@@ -41,12 +44,17 @@ fetch('data/directory.json')
 
     gridButton.addEventListener('click', () => {
       gridContainer.classList.remove('list-view');
-      document.querySelectorAll('.item').forEach(item => item.classList.remove('list-view'));
+      document.querySelectorAll('.item').forEach((item) => item.classList.remove('list-view'));
     });
 
     listButton.addEventListener('click', () => {
       gridContainer.classList.add('list-view');
-      document.querySelectorAll('.item').forEach(item => item.classList.add('list-view'));
+      document.querySelectorAll('.item').forEach((item) => item.classList.add('list-view'));
     });
-  })
-  .catch(error => console.error('Error loading JSON data:', error));
+  } catch (error) {
+    console.error('Error loading JSON data:', error);
+  }
+}
+
+// Call the async function
+loadJSONData();
