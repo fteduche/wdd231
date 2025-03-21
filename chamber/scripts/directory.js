@@ -1,3 +1,21 @@
+document.addEventListener('DOMContentLoaded', () => {
+  const hamburger = document.getElementById('hamburger');
+  const closeBtn = document.getElementById('close-btn');
+  const nav = document.getElementById('nav');
+
+  hamburger.addEventListener('click', () => {
+    nav.classList.add('show');
+  });
+
+  closeBtn.addEventListener('click', () => {
+    nav.classList.remove('show');
+  });
+});
+
+// Call functions on page load
+window.onload = () => {
+  displayFooterInfo();
+};
 // Function to load JSON data
 async function loadJSONData() {
   try {
