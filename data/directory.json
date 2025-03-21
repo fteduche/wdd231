@@ -1,0 +1,50 @@
+[
+    {
+        "name": "John's Plumbing",
+        "address": "123 Main St, Anytown, USA",
+        "phone": "555-555-5555",
+        "website": "www.nigeriacoc.com",
+        "image": "images/plumber.jpg",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Jane's Restaurant",
+        "address": "456 Elm St, Anytown, USA",
+        "phone": "555-555-5556",
+        "website": "www.nigeriacoc.com",
+        "image": "images/restaurant.png",
+        "membershipLevel": 2
+    },
+    {
+        "name": "Bob's Hardware",
+        "address": "789 Oak St, Anytown, USA",
+        "phone": "555-555-5557",
+        "website": "www.nigeriacoc.com",
+        "image": "images/hardware.jpg",
+        "membershipLevel": 3
+    },
+    {
+        "name": "Anytown Bank",
+        "address": "901 Maple St, Anytown, USA",
+        "phone": "555-555-5558",
+        "website": "www.nigeriacoc.com",
+        "image": "images/bank.jpg",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Anytown Insurance",
+        "address": "234 Pine St, Anytown, USA",
+        "phone": "555-555-5559",
+        "website": "www.nigeriacoc.com",
+        "image": "images/insurance.jpg",
+        "membershipLevel": 2
+    },
+    {
+        "name": "Anytown Realty",
+        "address": "567 Cedar St, Anytown, USA",
+        "phone": "555-555-5560",
+        "website": "www.nigeriacoc.com",
+        "image": "images/realty.webp",
+        "membershipLevel": 3
+    }
+]
