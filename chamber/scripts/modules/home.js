@@ -110,9 +110,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 });
 
-const myKey = "90158c8799bb28ca5c3054efdcbe85fd";
-const myLat = "8.999893532275784";
-const myLon = "-79.52049637702123";
+const myKey = "f9256650eee23d37d266b7d79e46912e";
+const myLat = "9.1099";
+const myLon = "7.4042";
 
 const time = new Date();
 const day = time.getDay();
