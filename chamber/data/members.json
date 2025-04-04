@@ -1,50 +1,103 @@
 [
-    {
-        "name": "John's Plumbing",
-        "address": "123 Main St, Anytown, USA",
-        "phone": "555-555-5555",
-        "website": "www.nigeriacoc.com",
-        "image": "images/plumber.jpg",
-        "membershipLevel": 1
-    },
-    {
-        "name": "Jane's Restaurant",
-        "address": "456 Elm St, Anytown, USA",
-        "phone": "555-555-5556",
-        "website": "www.nigeriacoc.com",
-        "image": "images/restaurant.png",
-        "membershipLevel": 2
-    },
-    {
-        "name": "Bob's Hardware",
-        "address": "789 Oak St, Anytown, USA",
-        "phone": "555-555-5557",
-        "website": "www.nigeriacoc.com",
-        "image": "images/hardware.jpg",
-        "membershipLevel": 3
-    },
-    {
-        "name": "Anytown Bank",
-        "address": "901 Maple St, Anytown, USA",
-        "phone": "555-555-5558",
-        "website": "www.nigeriacoc.com",
-        "image": "images/bank.jpg",
-        "membershipLevel": 1
-    },
-    {
-        "name": "Anytown Insurance",
-        "address": "234 Pine St, Anytown, USA",
-        "phone": "555-555-5559",
-        "website": "www.nigeriacoc.com",
-        "image": "images/insurance.jpg",
-        "membershipLevel": 2
-    },
-    {
-        "name": "Anytown Realty",
-        "address": "567 Cedar St, Anytown, USA",
-        "phone": "555-555-5560",
-        "website": "www.nigeriacoc.com",
-        "image": "images/realty.webp",
-        "membershipLevel": 3
-    }
+    
+        {
+          "Name": "Zenith Carex International Limited",
+          "Industry": "Healthcare and Pharmaceuticals",
+          "Physical Address": "Plot 9, Block A, Industrial Estate, Ilupeju, Lagos, Nigeria",
+          "Website": "www.zenithcarex.com",
+          "Phone": "+234 1 460 0600",
+          "Representative": "Olugbenga Oyebanjo / Managing Director",
+          "MemberSince": "01/01/2010",
+          "Membership": "Gold",
+          "logo": "https://zenithcarex.com/wp-content/uploads/2024/05/ZC_logo2-removebg-preview.png"
+        },
+        {
+          "Name": "Dangote Cement Plc",
+          "Industry": "Manufacturing and Construction",
+          "Physical Address": "1, Alfred Rewane Road, Ikoyi, Lagos, Nigeria",
+          "Website": "www.dangotecement.com",
+          "Phone": "+234 1 463 0300",
+          "Representative": "Aliko Dangote / Chairman",
+          "MemberSince": "01/01/2000",
+          "Membership": "Platinum",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVWHCUoFrRtv-AkDnhLgVSmMlscTGZwmykyoOtB8tzMtcEC3l9aYgX3BWnetEvRcRJlbI&usqp=CAU"
+        },
+        {
+          "Name": "Guinness Nigeria Plc",
+          "Industry": "Beverages and Food",
+          "Physical Address": "24, Oba Akran Avenue, Ikeja, Lagos, Nigeria",
+          "Website": "www.guinness-nigeria.com",
+          "Phone": "+234 1 271 7400",
+          "Representative": "Baker Magunda / Managing Director",
+          "MemberSince": "01/01/1963",
+          "Membership": "Gold",
+          "logo": "https://images.africanfinancials.com/ng-guinne-logo.png"
+        },
+        {
+          "Name": "Nigerian Breweries Plc",
+          "Industry": "Beverages and Food",
+          "Physical Address": "1, Abebe Village Road, Iganmu, Lagos, Nigeria",
+          "Website": "www.nigeriabreweries.com.ng",
+          "Phone": "+234 1 271 7400",
+          "Representative": "Hans Essaadi / Managing Director",
+          "MemberSince": "01/01/1946",
+          "Membership": "Platinum",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnmyzOapk6j6YotybEadVa7Bdz49EppnpV7Q&s"
+        },
+        {
+          "Name": "MTN Nigeria Communications Plc",
+          "Industry": "Telecommunications",
+          "Physical Address": "Golden Plaza, Ikoyi, Lagos, Nigeria",
+          "Website": "www.mtnnigeria.com",
+          "Phone": "+234 803 900 0300",
+          "Representative": "Karl Toriola / CEO",
+          "MemberSince": "01/01/2001",
+          "Membership": "Platinum",
+          "logo": "https://images.africanfinancials.com/63be93ed-ng-mtn-logo.png"
+        },
+        {
+          "Name": "First Bank of Nigeria Limited",
+          "Industry": "Banking and Finance",
+          "Physical Address": "35, Marina, Lagos, Nigeria",
+          "Website": "www.firstbanknigeria.com",
+          "Phone": "+234 1 905 2326",
+          "Representative": "Ibukun Awosika / Chairman",
+          "MemberSince": "01/01/1894",
+          "Membership": "Platinum",
+          "logo": "https://www.firstbanknigeria.com/wp-content/uploads/2020/01/First-Bank.svg"
+        },
+        {
+          "Name": "Nestle Nigeria Plc",
+          "Industry": "Beverages and Food",
+          "Physical Address": "22, Industrial Avenue, Ilupeju, Lagos, Nigeria",
+          "Website": "www.nestle.com.ng",
+          "Phone": "+234 1 279 3000",
+          "Representative": "Wassim Elhusseini / Managing Director",
+          "MemberSince": "01/01/1961",
+          "Membership": "Gold",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZOEKA481hZpIzK0myMWXTUgMwJcMzfMvowg&s"
+        },
+        {
+          "Name": "Unilever Nigeria Plc",
+          "Industry": "Beverages and Food",
+          "Physical Address": "1, Billingsway, Oregun, Ikeja, Lagos, Nigeria",
+          "Website": "www.unilever.com",
+          "Phone": "+234 1 279 9000",
+          "Representative": "Carl Cruz / Managing Director",
+          "MemberSince": "01/01/1928",
+          "Membership": "Platinum",
+          "logo": "https://images.africanfinancials.com/ng-unilev-logo.png"
+        },
+        {
+          "Name": "Access Bank Plc",
+          "Industry": "Banking and Finance",
+          "Physical Address": "Plot 999c, Danmole Street, Victoria Island, Lagos, Nigeria",
+          "Website": "www.accessbankplc.com",
+          "Phone": "+234 1 271 2005",
+          "Representative": "Herbert Wigwe / CEO",
+          "MemberSince": "01/01/1989",
+          "Membership": "Platinum",
+          "logo": "https://static-00.iconduck.com/assets.00/access-bank-plc-icon-1024x254-um4qr6ae.png"
+        }
 ]
+
